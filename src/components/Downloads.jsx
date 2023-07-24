@@ -46,4 +46,4 @@ const Downloads = () => {
   )
 }
 
-export default sectionWrapper(Downloads, 'downloads') 
+export default sectionWrapper(Downloads, 'descargas') 

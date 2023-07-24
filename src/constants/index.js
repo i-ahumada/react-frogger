@@ -32,12 +32,12 @@ const navLinks = [
         title: 'Home'
     },
     {
-        id: 'reports',
-        title: 'Docs'
+        id: 'documentacion',
+        title: 'Documentación'
     },
     {
-        id: 'downloads',
-        title: 'Downloads'
+        id: 'descargas',
+        title: 'Descargas'
     }
 ]
 

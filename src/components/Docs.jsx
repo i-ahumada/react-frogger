@@ -85,4 +85,4 @@ const Docs = () => {
   )
 }
 
-export default sectionWrapper(Docs, 'reports')
+export default sectionWrapper(Docs, 'documentacion')
