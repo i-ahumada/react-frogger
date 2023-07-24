@@ -65,6 +65,7 @@ const Docs = () => {
 
         {(reports.map((report) => (
           <div 
+            key={report.id}
             className={`${active === report.id? 'block': 'hidden'} relative w-full h-100 p-5 bg-tertiary md:rounded-r-md
             md:rounded-l-none rounded-b-md min-h-[500px]`}
           >

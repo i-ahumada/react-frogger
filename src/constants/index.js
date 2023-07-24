@@ -17,7 +17,13 @@ import {
     titulo,
     rio,
     pared,
-    cuenta
+    cuenta,
+    tailwind,
+    css,
+    javascript,
+    nodejs,
+    reactjs,
+    html
 } from '../assets'
 
 const navLinks = [
@@ -168,91 +174,91 @@ const downloadables = [
         link: 'https://www.mediafire.com/file/r91n9jnmi905e66/Titulo.sprite3/file',
     },
     {
-        id: 7,
+        id: 8,
         img: naveEspacial,
         imgAlt: 'Nave espacial pixelart descargable',
         desc: 'Incluye la nave espacial',
         link: 'https://www.mediafire.com/file/zab38l4ca05nahl/nave_espacial-removebg-preview.sprite3/file',
     },
     {
-        id: 8,
+        id: 9,
         img: serpiente,
         imgAlt: 'serpiente pixelart descargable',
         desc: 'Incluye la serpiente',
         link: 'https://www.mediafire.com/file/y01fx9utea8sieq/Serpiente.sprite3/file',
     },
     {
-        id: 9,
+        id: 10,
         img: moneda,
         imgAlt: 'moneda de oro pixelart descargable',
         desc: 'Incluye el bonus "Moneda"',
         link: 'https://www.mediafire.com/file/kp7z8xi0a6669iz/Moneda_Bonus.sprite3/file',
     },
     {
-        id: 10,
+        id: 11,
         img: madrigueraLlena,
         imgAlt: 'madriguera rana pixelart descargable',
         desc: 'Incluye la madriguera',
         link: 'https://www.mediafire.com/file/58qyik8raeful6q/Ranita.sprite3/file',
     },
     {
-        id: 11,
+        id: 12,
         img: meteorito,
         imgAlt: 'meteorito pixelart descargable',
         desc: 'Incluye el meteorito',
         link: 'https://www.mediafire.com/file/h4txqfrdne95t61/Meteorito.sprite3/file',
     },
     {
-        id: 12,
+        id: 13,
         img: inicio,
         imgAlt: 'boton de inicio pixelart descargable',
         desc: 'Incluye los botones del menu',
         link: 'https://www.mediafire.com/file/cbxbvzdu4rwl4aa/Botones.sprite3/file',
     },
     {
-        id: 13,
+        id: 14,
         img: perdiste,
         imgAlt: 'Cartel de perdiste pixelart descargable',
         desc: 'Incluye el cartel que dice si perdiste o ganaste',
         link: 'https://www.mediafire.com/file/vxznabhyqnzwxbg/Perder_Ganar_Cartel.sprite3/file',
     },
     {
-        id: 14,
+        id: 15,
         img: facil,
         imgAlt: 'cartel que dice facil pixelart descargable',
         desc: 'Incluye los carteles de elegir dificultad',
         link: 'https://www.mediafire.com/file/b17rlumbdkvqwdw/Elegir_Dificultad.sprite3/file',
     },
     {
-        id: 15,
+        id: 16,
         img: mosquita,
         imgAlt: 'mosquita pixelart descargable',
         desc: 'Incluye el bonus "Mosquita"',
         link: 'https://www.mediafire.com/file/hw0nzqqdtao9wse/Mosquita.sprite3/file',
     },
     {
-        id: 16,
+        id: 17,
         img: laser,
         imgAlt: 'lasers pixelart descargable',
         desc: 'Incluye el laser',
         link: 'https://www.mediafire.com/file/phi7ww1f7cmpvz3/laser.sprite3/file',
     },
     {
-        id: 17,
+        id: 18,
         img: rio,
         imgAlt: 'rio pixelart descargable',
         desc: 'Incluye el rio',
         link: 'https://www.mediafire.com/file/crf08gul5lnrwh8/Rio.sprite3/file',
     },
     {
-        id: 18,
+        id: 19,
         img: cuenta,
         imgAlt: 'numero uno pixelart descargable',
         desc: 'Incluye la cuenta regresiva',
         link: 'https://www.mediafire.com/file/568njx0ld0l1m19/Cuenta_Regresiva.sprite3/file',
     },
     {
-        id: 19,
+        id: 20,
         img: pared,
         imgAlt: 'madriguera rana pixelart descargable',
         desc: 'Incluye la pared invisible de arriba',
@@ -260,4 +266,31 @@ const downloadables = [
     }
 ]
 
-export { navLinks, reportLinks, reports, downloadables }
+const techUsed = [
+    {
+        imgAlt: 'html',
+        img: html
+    },
+    {
+        imgAlt: 'css',
+        img: css
+    },
+    {
+        imgAlt: 'tailwind',
+        img: tailwind
+    },
+    {
+        imgAlt: 'javascript',
+        img: javascript
+    },
+    {
+        imgAlt: 'nodeJs',
+        img: nodejs
+    },
+    {
+        imgAlt: 'reactJs',
+        img: reactjs
+    }
+]
+
+export { navLinks, reportLinks, reports, downloadables, techUsed }

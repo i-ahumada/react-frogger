@@ -2,9 +2,12 @@ import React from 'react'
 import { sectionWrapper } from '../hoc'
 import { downloadables } from '../constants'
 
-const downloadCard = (cardImg, cardImgAlt, link, desc) => {
+const downloadCard = (id,cardImg, cardImgAlt, link, desc) => {
   return(
-    <div className='relative card-shadow w-[200px] bg-primary rounded-md overflow-hidden'>
+    <div
+      key={id} 
+      className='relative card-shadow w-[200px] bg-primary rounded-md overflow-hidden'
+    >
       <div className='flex justify-center items-center p-5 w-full bg-secondary'>
         <img 
           src={cardImg} 
@@ -36,7 +39,7 @@ const Downloads = () => {
       </h1>
       <div className='flex flex-wrap gap-5 mx-10 justify-center'>
         {downloadables.map((downloadable) => (
-          downloadCard(downloadable.img, downloadable.imgAlt, downloadable.link, downloadable.desc)
+          downloadCard(downloadable.id,downloadable.img, downloadable.imgAlt, downloadable.link, downloadable.desc)
         ))}
       </div>
     </>
