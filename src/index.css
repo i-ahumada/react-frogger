@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #252525;
+    scroll-behavior: smooth;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.section-header {
+    color: #FEFEFE
+}
+
+.bg-hero {
+    background: url('./assets/bgHero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.nav-link-color {
+    color: rgba(0, 0, 0, 0.5);
+} 
+
+.nav-link-color:hover {
+    color: hsla(0, 0%, 0%, 0.897);
+}
+
+.docs-img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    filter: opacity(0.1);
+}
+
+.nav-mobile {
+    position: absolute;
+}
+
+.down-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-40%);
+    height: 20px;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
