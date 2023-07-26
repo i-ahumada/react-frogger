@@ -46,7 +46,6 @@ const Downloads = () => {
         }
       })
     }
-
     // Variables for dynamic styling
     const baseDelay = 400;
     let delay = 0;

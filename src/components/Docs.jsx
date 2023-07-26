@@ -15,10 +15,10 @@ const Docs = () => {
       </h1>
       <div className='flex md:flex-row flex-col mx-10'>
         {/*Computer navigation */}
-        <ul className='md:flex hidden no-list flex-col w-[150px] bg-primary justify-center rounded-l-md overflow-hidden'>
+        <ul className='md:flex hidden no-list flex-col w-[150px] bg-primary justify-center rounded-l-md'>
           {(reportLinks.map((reportLink) => (
             <li
-              className={`${active === reportLink.id ? 'bg-quinary' : ''} hover:cursor-pointer hover:bg-quinary 
+              className={`${active === reportLink.id ? 'bg-quinary active' : ''} z-20 hover:cursor-pointer hover:bg-quinary 
               w-full h-full px-4 py-5 transition-all duration-500 linear`}
               onClick={() => { setActive(reportLink.id) }}
               key={reportLink.id}
@@ -43,7 +43,7 @@ const Docs = () => {
             />
           </p>
           <ul
-            className={`${toggle ? '' : 'hidden'} md:hidden  bg-primary nav-mobile z-20 w-full translate-all linear
+            className={`${toggle ? '' : 'hidden'} md:hidden  bg-primary nav-mobile z-0 w-full translate-all linear
             duration-500`}
           >
             {(reportLinks.map((reportLink) => (

@@ -59,12 +59,16 @@ iframe {
 .hidden-op {
     opacity: 0;
     transition: all 1s ease-out;
-    transform: translateX(-100%);
-    filter: blur(20px);
+    transform: scale(200%);
+    filter: blur(10px);
 }
 
 .show {
     opacity: 1;
     transform: translateX(0);
     filter: blur(0);
+}
+
+.active {
+    transform: scale(110%);
 }
