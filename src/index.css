@@ -20,11 +20,11 @@ iframe {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}   
+}
 
 .nav-link-color {
     color: rgba(0, 0, 0, 0.5);
-} 
+}
 
 .nav-link-color:hover {
     color: hsla(0, 0%, 0%, 0.897);
@@ -54,4 +54,17 @@ iframe {
 
 .card-shadow {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hidden-op {
+    opacity: 0;
+    transition: all 1s ease-out;
+    transform: translateX(-100%);
+    filter: blur(20px);
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
 }

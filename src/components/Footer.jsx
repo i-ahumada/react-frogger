@@ -1,4 +1,3 @@
-import React from 'react'
 import { techUsed } from '../constants'
 
 const Footer = () => {
@@ -7,10 +6,10 @@ const Footer = () => {
       <div className='md:w-[60%] w-[100%] bg-primary px-10 h-full flex flex-row justify-between items-center'>
         {
           techUsed.map((tech) => (
-            <img 
+            <img
               key={tech.imgAlt}
-              src={tech.img} 
-              alt={tech.imgAlt} 
+              src={tech.img}
+              alt={tech.imgAlt}
               className='h-[50px]'
             />
           ))
